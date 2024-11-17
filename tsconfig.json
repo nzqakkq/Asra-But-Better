@@ -1,0 +1,41 @@
+{
+	"compilerOptions": {
+		"allowUnreachableCode": false,
+		"allowUnusedLabels": false,
+		"alwaysStrict": true,
+		"exactOptionalPropertyTypes": true,
+		"noFallthroughCasesInSwitch": true,
+		"noImplicitAny": true,
+		"noImplicitOverride": true,
+		"noImplicitReturns": true,
+		"noImplicitThis": true,
+		"noPropertyAccessFromIndexSignature": true,
+
+		"esModuleInterop": true,
+		"skipLibCheck": true,
+		"target": "ESNext",
+		"verbatimModuleSyntax": true,
+		"allowJs": true,
+		"resolveJsonModule": true,
+		"moduleDetection": "force",
+
+		"strict": true,
+		"noUncheckedIndexedAccess": false,
+
+		"moduleResolution": "Bundler",
+		"module": "ESNext",
+		"noEmit": true,
+
+		"lib": ["ESNext", "DOM"],
+
+		"paths": {
+			"@Structures": ["./src/Structures/index.ts"],
+			"Typings": ["./Typings/index.d.ts"],
+			"@Constants": ["./src/Constants.ts"],
+			"@Logger": ["./src/index.ts"],
+			"@Config": ["./src/Config/index.ts"]
+		},
+
+		"types": ["bun-types", "./Typings"]
+	}
+}

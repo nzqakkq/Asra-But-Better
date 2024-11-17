@@ -1,0 +1,7 @@
+.git
+.vscode
+build
+Logs
+node_modules
+src/Structures/Commands
+.env

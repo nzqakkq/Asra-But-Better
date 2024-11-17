@@ -1,0 +1,6 @@
+.git
+.vscode
+Logs
+node_modules
+Tests
+.env
